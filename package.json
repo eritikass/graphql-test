@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --format node_modules/eslint-friendly-formatter --ignore-path .gitignore --ext .js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,5 +13,11 @@
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-plugin-import": "^2.8.0"
   }
 }
