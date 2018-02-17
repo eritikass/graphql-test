@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "lint": "eslint --format node_modules/eslint-friendly-formatter --ignore-path .gitignore --ext .js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,7 @@
     "eslint": "^4.18.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-friendly-formatter": "^3.0.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.15.0"
   }
 }
